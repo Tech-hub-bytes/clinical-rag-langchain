@@ -2,6 +2,12 @@
 
 Databricks App that answers questions over **C-CDA**, **PDF**, **HL7 v2**, and **FHIR JSON** using LangChain + Vector Search.
 
+## Example UI
+
+Example question: *is there any Sophia Anderson patient?*
+
+![Example multi-format clinical RAG UI](docs/screenshots/example-chat.png)
+
 ## Architecture of clinical-rag-chat
 
 ```mermaid
