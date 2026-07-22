@@ -1,0 +1,9 @@
+MSH|^~\&|LAB|DEMO|EMR|DEMO|20250115120000||ORU^R01|MSG00001|P|2.5
+PID|1||PAT-EMMA-001^^^MRN||TestPatient^Emma||19800101|F|||123 Demo St^^Seattle^WA^98101
+PV1|1|O|OUTPATIENT||||1234^Demo^Physician
+OBR|1||ORD1001|CBC^Complete Blood Count|||20250115100000
+OBX|1|NM|718-7^Hemoglobin^LN||13.2|g/dL|12.0-15.5|N|||F
+OBX|2|NM|4544-3^Hematocrit^LN||39.5|%|36.0-46.0|N|||F
+OBX|3|NM|789-8^Erythrocytes^LN||4.5|10*6/uL|4.0-5.2|N|||F
+AL1|1||PENICILLIN||Rash
+DG1|1||E11.9^Type 2 diabetes mellitus without complications^I10||20250101

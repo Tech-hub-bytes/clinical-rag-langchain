@@ -1,0 +1,20 @@
+command:
+  - python
+  - start.py
+env:
+  - name: DATABRICKS_VOLUME_FILES
+    valueFrom: files
+  - name: DATABRICKS_SERVING_ENDPOINT_NAME
+    valueFrom: serving-endpoint
+  - name: DATABRICKS_VOLUME_PATH
+    value: /Volumes/workspace/ccda_rag/docs
+  - name: DATABRICKS_VECTOR_SEARCH_INDEX
+    value: workspace.ccda_rag.document_chunks_index
+  - name: DATABRICKS_VECTOR_SEARCH_ENDPOINT
+    value: ka-3abc305d-vs-endpoint
+  - name: INGEST_JOB_ID
+    value: "1026899989768735"
+  - name: VS_PIPELINE_ID
+    value: "bd6baf44-ea7a-4d58-89b2-06a974da54cd"
+  - name: DATABRICKS_INGEST_JOB
+    valueFrom: ingest-job

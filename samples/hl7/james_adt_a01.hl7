@@ -1,0 +1,7 @@
+MSH|^~\&|HIS|DEMO|EMR|DEMO|20250201110000||ADT^A01|MSG00002|P|2.5
+PID|1||PAT-JAMES-001^^^MRN||Testpatient^James||19750515|M|||456 Sample Ave^^Portland^OR^97201
+PV1|1|I|WARD1^101^A||||5678^Admit^Doctor
+DG1|1||I10^Essential (primary) hypertension^I10||20250120
+AL1|1||SHELLFISH||Anaphylaxis
+OBX|1|NM|8480-6^Systolic blood pressure^LN||138|mmHg|90-120|H|||F
+OBX|2|NM|8462-4^Diastolic blood pressure^LN||88|mmHg|60-80|H|||F
