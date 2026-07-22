@@ -4,7 +4,7 @@ Databricks App that answers questions over **C-CDA**, **PDF**, **HL7 v2**, and *
 
 ## Example UI
 
-Example question: *is there any Sophia Anderson patient?*
+Example question: *David miller*
 
 ![Example multi-format clinical RAG UI](docs/screenshots/example-chat.png)
 
